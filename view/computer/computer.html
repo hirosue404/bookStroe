@@ -3,13 +3,24 @@
         <h2>计算机</h2>
         <h2><i>Computer</i></h2>
         <div class="list-group side-bar">
-            <a href="#" class="list-group-item">汇编语言</a>
-            <a href="#" class="list-group-item">前端开发</a>
-            <a href="#" class="list-group-item">数据库</a>
-            <a href="#" class="list-group-item">图像处理</a>
-            <a href="#" class="list-group-item">办公软件</a>
+            <a ui-sref="computer.assembly language" class="list-group-item">汇编语言</a>
+            <a ui-sref="computer.web" class="list-group-item">前端开发</a>
+            <a ui-sref="computer.database" class="list-group-item">数据库</a>
+            <a ui-sref="computer.graphics" class="list-group-item">图像处理</a>
+            <a ui-sref="computer.office" class="list-group-item">办公软件</a>
         </div>
     </div>
-    <div class="col-sm-7"></div>
-    <div class="col-sm-3"></div>
+    <div class="col-sm-7">
+        <div ui-view=""></div>
+    </div>
+    <div class="col-sm-3">
+        <h3>计算机工具书畅销排行</h3>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
 </div>

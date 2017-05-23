@@ -4,17 +4,18 @@
         <h2>经济管理</h2>
         <h2><i>Business <br/>& <br/>  Economics</i></h2>
         <div class="list-group side-bar">
-            <a href="#" class="list-group-item">经济学</a>
-            <a href="#" class="list-group-item">管理学</a>
-            <a href="#" class="list-group-item">营销学</a>
-            <a href="#" class="list-group-item">经济法律</a>
-            <a href="#" class="list-group-item">金融/投资</a>
-            <a href="#" class="list-group-item">电子商务</a>
+            <a ui-sref="Business&Economics.economics" class="list-group-item">经济学</a>
+            <a ui-sref="Business&Economics.management" class="list-group-item">管理学</a>
+            <a ui-sref="Business&Economics.marketing" class="list-group-item">营销学</a>
+            <a ui-sref="Business&Economics.economic law" class="list-group-item">经济法律</a>
+            <a ui-sref="Business&Economics.financial" class="list-group-item">金融/投资</a>
+            <a ui-sref="Business&Economics.e-commerce" class="list-group-item">电子商务</a>
         </div>
     </div>
     <!--页面主体内容显示区域-->
     <div class="col-sm-7">
         <h1>页面主体内容显示区域</h1>
+        <div ui-view=""></div>
     </div>
     <!--右侧边栏热门推荐/排行/广告区-->
     <div class="col-sm-3">

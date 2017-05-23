@@ -3,13 +3,15 @@
         <h2>科技</h2>
         <h2><i>Science</i></h2>
         <div class="list-group side-bar">
-            <a href="#" class="list-group-item">科普著作</a>
-            <a href="#" class="list-group-item">医学</a>
-            <a href="#" class="list-group-item">工业</a>
-            <a href="#" class="list-group-item">通信</a>
-            <a href="#" class="list-group-item">农林</a>
+            <a ui-sref="science.popular science" class="list-group-item">科普著作</a>
+            <a ui-sref="science.medical" class="list-group-item">医学</a>
+            <a ui-sref="science.industry" class="list-group-item">工业</a>
+            <a ui-sref="science.telecommunications" class="list-group-item">通信</a>
+            <a ui-sref="science.agriculture" class="list-group-item">农林</a>
         </div>
     </div>
-    <div class="col-sm-7"></div>
+    <div class="col-sm-7">
+        <div ui-view=""></div>
+    </div>
     <div class="col-sm-3"></div>
 </div>

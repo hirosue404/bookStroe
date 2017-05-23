@@ -1,0 +1,17 @@
+<div class="container">
+    <table>
+        <tr>
+          <th>书名</th>
+          <th>作者</th>
+          <th>出版社</th>
+          <th>ISBN</th>
+        </tr>
+        <tr ng-repeat="v in data">
+            <td>{{v.book}}</td>
+            <td>{{v.author}}</td>
+            <td>{{v.press}}</td>
+            <td>{{v.bookNum}}</td>
+        </tr>
+
+    </table>
+</div>
