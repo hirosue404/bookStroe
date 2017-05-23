@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>一些书屋</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--bootstrap框架及自定义样式表-->
+    <link rel="stylesheet" href="style/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style/main.css"/>
+
+    <!--图片轮播效果脚本集-->
+    <script src="scripts/3.1.1-jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+
+    <!--angularJS脚本集-->
+    <script  src="scripts/1.4.6-angular.min.js"></script>
+    <script src="scripts/0.3.2-angular-ui-router.min.js"></script>
+    <script src="scripts/bookstoreApp.js"></script>
+</head>
+<body ng-app="bsApp">
+    <div ng-include="'view/header.html'"></div>
+    <div ui-view></div>
+    <div ng-include="'view/footer.html'"></div>
+</body>
+</html>

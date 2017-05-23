@@ -1,0 +1,55 @@
+/*全局页面样式设置*/
+body{
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+img{
+    display: block;
+    max-width:100%;
+}
+
+/*页首导航样式设置*/
+.navbar{
+    background: #5cb85c;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+
+/*
+.navbar .navbar-nav input{
+    width: 220px;
+    margin-top: 8px;
+    border:none;
+}
+*/
+
+/*页脚样式设置*/
+.footer{
+    text-align: center;
+    color: #ccc;
+    padding:20px 0;
+}
+
+/*注册及登录页面表单样式设置*/
+.container-small{
+    width: 500px;
+}
+
+/*
+.container-small .form-group .btn{
+    font-size:2rem;
+    margin:20px 0;
+}
+*/
+
+/*分页视图通用样式设置*/
+
+.list-group .list-group-item.active{
+    background: #5cb85c;
+    border-color: #398439;
+    /*background: #ce8483;*/
+}

@@ -1,0 +1,27 @@
+<!--
+<div class="container">
+    <div class="news-list-item clearfix" ng-repeat="v in data">
+        <div class="col-xs-5 thumbnail">
+            <img src="{{v .picUrl}}" />
+        </div>
+        <div class="col-xs-7">
+            书名：<a class="title" href="#">{{v.book}}</a>
+            作者：<a href="#">{{v.author}}</a>
+            书号：{{v.bookNum}}
+        </div>
+    </div>
+</div>
+-->
+<div class="media" ng-repeat="v in data">
+    <div class="media-left">
+        <a href="#" class="thumbnail">
+            <img class="media-object" src="{{v.picUrl}}">
+        </a>
+    </div>
+    <div class="media-body">
+        <h5 class="media-heading">{{v.book}}</h5>
+        作者：{{v.author}} <br/>
+        书号：{{v.bookNum}} <br>
+        ...
+    </div>
+</div>
